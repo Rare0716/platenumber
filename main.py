@@ -216,7 +216,7 @@ if __name__ == '__main__':
 
     # 图片的识别数量范围，默认使用0-50张，最多为10000张
     # 运行前需先运行newCrop.py
-    for i in range(1, 10000):
+    for i in range(1000, 10000):
         try:
             path = './newPic/new{}.jpg'.format(i)
             img = cv2.imread(path)

@@ -9,7 +9,7 @@ if __name__ == '__main__':
         for i in range(10, 100):
             path = "pic/000{}.jpg".format(i)
             pathList.append(path)
-        for i in range(100, 10000):
+        for i in range(100, 1000):
             path = "pic/00{}.jpg".format(i)
             pathList.append(path)
         for i in range(1000, 10000):
